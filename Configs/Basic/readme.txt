@@ -14,6 +14,7 @@ exec-split.conf
 
 Run the "ls -l /" command every 60 seconds, spliting the resulting lines into seperate events
 
-exec-split-grok.conf (FAILS)
+exec-split-grok.conf (Broken -- see JIRA 1312)
 
 Run the "ls -l /" command, split into multiple events, then GROK them 
+
