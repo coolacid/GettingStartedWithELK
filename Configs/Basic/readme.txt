@@ -9,3 +9,8 @@ Same as 1, however, this time, instead of text, we show the JSON with some nice 
 exec-stdout-ruby.conf
 
 Execicute the "uptime" command every 5 seconds and output to stdout with Ruby JSON
+
+exec-split.conf
+
+Run the "ls -l /" command every 60 seconds, spliting the resulting lines into seperate events
+
