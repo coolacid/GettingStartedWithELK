@@ -37,3 +37,7 @@ Anonymize the clientip field using the default SHA1 hash
 12-weblogs-anonymize-A.conf
 
 Anonymize the clientip field using IPV4_NETWORK option - note that the first 2 octets are kept.
+
+13-weblogs-metric.conf
+
+Reads the weblogs, and displays metrics on the response codes. 
