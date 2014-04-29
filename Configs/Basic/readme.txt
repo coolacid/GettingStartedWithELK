@@ -18,3 +18,7 @@ exec-split-grok.conf (Broken -- see JIRA 1312)
 
 Run the "ls -l /" command, split into multiple events, then GROK them 
 
+socket-stdout.conf
+
+Open a socket and wait for data. To send data to the socket use: 
+nc -U /tmp/lssock
