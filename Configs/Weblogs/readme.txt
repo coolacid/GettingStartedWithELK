@@ -41,3 +41,7 @@ Anonymize the clientip field using IPV4_NETWORK option - note that the first 2 o
 13-weblogs-metric.conf
 
 Reads the weblogs, and displays metrics on the response codes. 
+
+14-weblogs-useragent.conf
+
+Reads the weblogs and gathers information about the user agent
