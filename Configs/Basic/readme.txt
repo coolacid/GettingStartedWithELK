@@ -18,7 +18,17 @@ exec-split-grok.conf (Broken -- see JIRA 1312)
 
 Run the "ls -l /" command, split into multiple events, then GROK them 
 
+tcp-stdout.conf
+
+Open a TCP socket and wait for data. To send data to the socket use: 
+nc localhost 8123
+
+udp-stdout.conf
+
+Open a UDP socket and wait for data. To send data to the socket use: 
+nc -u localhost 8123
+
 socket-stdout.conf
 
-Open a socket and wait for data. To send data to the socket use: 
+Open a UNIX socket and wait for data. To send data to the socket use: 
 nc -U /tmp/lssock
