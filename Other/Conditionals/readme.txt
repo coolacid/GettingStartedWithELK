@@ -6,4 +6,7 @@ find_in_message_insensitive.conf
 
 Find the word "test" in the generated messages. Note, it's case INsensitive! (See Above)
 
+find_tag.conf
+
+Find a tag in an event.
 
