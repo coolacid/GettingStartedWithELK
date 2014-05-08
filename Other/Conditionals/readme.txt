@@ -14,3 +14,6 @@ modify_severity.conf
 
 Parse a PHP error message, and modify a severity by the error message
 
+field_does_not_exist.conf
+
+Check to see if a field exists, if it doesn't add a tag
