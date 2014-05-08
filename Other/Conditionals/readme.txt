@@ -10,3 +10,7 @@ find_tag.conf
 
 Find a tag in an event.
 
+modify_severity.conf
+
+Parse a PHP error message, and modify a severity by the error message
+
