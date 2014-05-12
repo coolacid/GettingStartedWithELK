@@ -14,7 +14,7 @@ filter {
     }
     # Modify the New Message Field -- Remove the dot, and only keep 13 numbers
     ruby {
-	code => "event['new_message'] = event['new_message'].sub!('.', '')[0,13]"
+	code => "event['new_message'] = event['new_message'].sub!('.', '')[0..-4]"
     }
     # Convert this new message into a Timestamp as new_timestamp
     date {
