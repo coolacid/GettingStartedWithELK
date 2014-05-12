@@ -1,0 +1,25 @@
+input {
+    stdin {}
+    generator {
+	message => "1399749365.616074"
+	count => 1
+    }
+}
+
+filter {
+    mutate {
+	add_field => { "orig_message" => "%{message}" }
+    }
+    ruby {
+	code => "event['message'] = event['message'].sub!('.', '')[0,13]"
+    }
+
+    date {
+	match => ['message', "UNIX_MS" ]
+	target => "NewTs"
+    }
+
+}
+output {
+    stdout { codec => rubydebug }
+}
