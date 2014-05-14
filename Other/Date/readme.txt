@@ -5,3 +5,7 @@ Shows how to merge seperate date and time fields into one, for use with the date
 dotted-Unix.txt
 
 Convert a Dotted Unix timestamp in the format UNIX.Microseconds into a timestamp with milliseconds. 
+
+remove-ms.txt
+
+Remove the MS from a timestamp, and keep as string
