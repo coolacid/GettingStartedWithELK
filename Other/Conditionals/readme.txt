@@ -22,3 +22,7 @@ multiple_or.conf
 
 Multiple OR events in a conditional
 
+parentheses.conf
+
+Example of using parentheses in a conditional
+
