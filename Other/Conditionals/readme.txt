@@ -26,3 +26,8 @@ parentheses.conf
 
 Example of using parentheses in a conditional
 
+find_in_message_ml.conf 
+
+Example of finding a regex within a multiline event --- NOTE: This does not work currently!
+
+
