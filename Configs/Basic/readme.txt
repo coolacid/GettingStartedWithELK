@@ -33,6 +33,6 @@ socket-stdout.conf
 Open a UNIX socket and wait for data. To send data to the socket use: 
 nc -U /tmp/lssock
 
-multiline.conf
+multiline_filter.conf && multiline_codec.conf
 
-Very Simple Multiline example
+Very Simple Multiline example -- Note the requirements noted at the top between the two.
