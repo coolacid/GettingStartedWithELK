@@ -6,6 +6,6 @@ IRC (#Logstash on Freenode):
 - ben_thatmustbeme
 - mYzk
 - Volter
-
+- Kizzale
 
 If I missed you, reach out to me or put in a PR :)
