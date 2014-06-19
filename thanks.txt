@@ -7,5 +7,6 @@ IRC (#Logstash on Freenode):
 - mYzk
 - Volter
 - Kizzale
+- shoerain
 
 If I missed you, reach out to me or put in a PR :)
