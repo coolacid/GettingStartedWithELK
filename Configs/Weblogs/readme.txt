@@ -1,3 +1,7 @@
+1-weblogs-parse-apache.conf
+
+Here we parse a single Apache message that's logged in Combined Apache Log format. More information on the format here: http://httpd.apache.org/docs/2.4/logs.html#combined
+
 3-weblog-stdout.conf
 
 We start playing with weblogs - dump the JSON to stdout
