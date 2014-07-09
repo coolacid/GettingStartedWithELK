@@ -34,7 +34,7 @@ Calculate the age of the event from Generation (from log) to parse
 
 Anonymize the clientip field using the default SHA1 hash
 
-12-weblogs-anonymize-A.conf
+12-weblogs-anonymize-B.conf
 
 Anonymize the clientip field using IPV4_NETWORK option - note that the first 2 octets are kept.
 
