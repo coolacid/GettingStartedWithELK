@@ -1,0 +1,22 @@
+# Create a temp timestamp field from the dates field
+mutate {
+     add_field => [ "tmpts", "${dates}" ]
+}
+
+# Add the heure field to create an array of both fields
+mutate { 
+     merge => ["tmpts", "heure"]
+}
+
+# Now Join the arrays together split by ::space::
+mutate {
+     join => ["tmpts", " "]
+}
+
+# Do Date matching here
+# TODO
+
+# Remove Temp Field
+mutate {
+     remove => [ "tmpts" ]
+}
