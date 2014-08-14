@@ -32,3 +32,7 @@ socket-stdout.conf
 
 Open a UNIX socket and wait for data. To send data to the socket use: 
 nc -U /tmp/lssock
+
+merge_two_fields.conf
+
+This will merge two fields.
