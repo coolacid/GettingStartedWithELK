@@ -13,3 +13,7 @@ Remove the MS from a timestamp, and keep as string
 add_current_time.txt
 
 Add the current time using the ruby filter
+
+drop-old-timestamps.txt
+
+Drop stray older events to avoid creating Elasticsearch indices just for them

@@ -8,6 +8,7 @@ IRC (#Logstash on Freenode):
 - Volter
 - Kizzale
 - shoerain
+- kl4m
 - cully
 
 If I missed you, reach out to me or put in a PR :)

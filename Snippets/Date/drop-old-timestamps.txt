@@ -1,0 +1,29 @@
+input {
+  # This event will be dropped
+  generator {
+    type => "generated"
+    message => '{"@timestamp":"2014-07-01T00:00:00.000Z", "test" : ["test1","test2"] }'
+    count => 1
+    codec => json
+  }
+  # This one will go through
+  generator {
+    type => "generated"
+    message => '{"test" : ["test3","test4"] }'
+    count => 1
+    codec => json
+  }
+}
+
+filter {
+  # older than 15 days? drop
+  ruby {
+    code => "event.cancel if event.timestamp < (Time.now - (86400 * 15))"
+  }
+}
+
+output {
+  stdout {
+    codec => rubydebug
+  }
+}
