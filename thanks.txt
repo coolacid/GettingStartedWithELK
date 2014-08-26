@@ -10,5 +10,6 @@ IRC (#Logstash on Freenode):
 - shoerain
 - kl4m
 - cully
+- torrancew
 
 If I missed you, reach out to me or put in a PR :)
